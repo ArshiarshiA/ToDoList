@@ -38,3 +38,10 @@ body{
 .header input[type = button]{
     cursor: pointer;
 }
+.taskList div{
+   background-color: lightgray;
+   padding: 10px 30px;
+   font-size: 20px;
+   font-family: fa;
+   cursor: pointer;
+}
