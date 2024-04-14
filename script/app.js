@@ -25,7 +25,7 @@ clear.addEventListener('click' , ()=>{
 
 
 TaskList.addEventListener('click' , (event)=>{
-    // if clicked delete icon
+    // if clicked trash icon
     if(event.target.nodeName == 'I'){
         event.target.parentNode.parentNode.style.display = 'none';
     }

@@ -34,6 +34,11 @@ body{
     border: none;
     outline: none;
     background-color: white;
+    transition: all .3s;
+}
+.header input[type = button]:hover{
+    background-color: lightgray;
+    color: white;
 }
 .header input[type = button]{
     cursor: pointer;
@@ -41,7 +46,7 @@ body{
 .taskList div{
    position: relative;
    background-color: lightgray;
-   padding: 10px 30px;
+   padding: 10px 45px;
    font-size: 20px;
    font-family: fa;
    cursor: pointer;
@@ -66,4 +71,14 @@ body{
     text-decoration: line-through;
     background-color: rgb(153, 153, 153);
     color: white;
+}
+.done::before{
+    content: '';
+    width: 9px;
+    height: 26px;
+    position: absolute;
+    left: 20px;
+    border: 0 solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
 }
