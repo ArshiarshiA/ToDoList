@@ -39,6 +39,7 @@ body{
     cursor: pointer;
 }
 .taskList div{
+   position: relative;
    background-color: lightgray;
    padding: 10px 30px;
    font-size: 20px;
@@ -48,4 +49,21 @@ body{
 }
 .taskList div:hover{
     background-color: rgb(153, 153, 153);
+}
+.taskList div:hover .trash{
+    display: inline-block;
+}
+.trash{
+    display: none;
+    position: absolute;
+    right: 20px;
+}
+.trash:hover i{
+    color: red;
+}
+/* for use in js index */
+.done{
+    text-decoration: line-through;
+    background-color: rgb(153, 153, 153);
+    color: white;
 }
