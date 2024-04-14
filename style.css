@@ -4,3 +4,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* add font */
+@font-face {
+    font-family: fa;
+    src: url(./fonts/Dirooz.ttf) format('truetype');
+}
