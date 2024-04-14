@@ -15,4 +15,26 @@ body{
     align-items: center;
     justify-content: center;
     font-family: sans-serif , fa;
+    user-select: none;
+}
+.header{
+    background-color: orange;
+    padding: 20px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.header h1{
+    color: white;
+    margin: 10px;
+}
+.header input{
+    font-family: fa;
+    font-size: 20px;
+    padding: 2px 25px;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+.header input[type = button]{
+    cursor: pointer;
 }
