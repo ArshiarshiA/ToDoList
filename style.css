@@ -9,3 +9,10 @@
     font-family: fa;
     src: url(./fonts/Dirooz.ttf) format('truetype');
 }
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif , fa;
+}
